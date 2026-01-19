@@ -133,33 +133,22 @@ function diff(a,b){
 function operate(operationFunc, a , b){
     return operationFunc(a, b);
 }
-
+  
 console.log(operate(sum,5,100));
 console.log(operate(diff , 100 ,5));
 */
 
-
 /*
-function rps(user , computer){
-      if(user === computer) return "draw";
-      if (user ==="secissor" && computer ==="paper") return "computer";
-      if(user ==="rock" && computer ==="secissor") return "user";
-      if (user  === "paper" && computer === "rock") return "user";
-       
-      return "computer";
+
+let sum = 0
+for (let i = 1; i<=5; i++){
+    sum = sum + i;
 
 }
+console.log("sum = ", sum);
 
-console.log(rps("paper", "paper"));
-
-*/
+*/ 
 
 
-const myNewArray = [500 , 5003 , 564 , 56]
-    
-    function returnThirdValue(getArray){
-    return getArray[2]
 
-    }
-console.log(returnThirdValue(myNewArray));
 
