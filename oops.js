@@ -1,6 +1,7 @@
 // Now we are going to start Object  oriented programming 
  
-// Factories 
+// Factories  
+
 function createCircle (radius){
 return {
    radius: radius,
@@ -11,6 +12,16 @@ return {
  }; 
 }
 const circle = createCircle (1);
-circle.draw();
 
 
+// Constructors Functions
+
+function Circle (radius){
+    this.radius = radius,
+    this.draw  = function(){
+        console.log('draw');
+    }
+    
+}
+
+const another = new Circle(1);
