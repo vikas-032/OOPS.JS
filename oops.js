@@ -28,17 +28,11 @@ const another = new Circle(1);
 */
 
 
- function Person1 (school , college , university){
-    this.firstSchool = school;
-    this.SecondCollege = college;
-    this.thirdUniversity = university;
+class person{
+constructor(){
+    console.log("person created...");
+}
+}
 
- }
-
- Person1.prototype.fullName = function(){
-    console.log(this.firstSchool + " " + this.SecondCollege );
- }
-
- let Person3 = new Person3("Vikas", "kumar", 22);
-
- console.log(Person3);
+let person1 = new person();
+console.log(person1);

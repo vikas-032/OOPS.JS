@@ -149,6 +149,4 @@ console.log("sum = ", sum);
 
 */ 
 
-
-
  
