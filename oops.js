@@ -60,7 +60,7 @@ console.log(person1);
 person1.sayHi();
 person.hello();
 */
-
+/*
 // Inheritence in OOPS
 
  class emp{
@@ -100,3 +100,22 @@ msg(){
  let admin1= new admin("shivani  " , "vikas");
    
 console.log(admin1);
+
+*/
+
+
+class emp{
+    #name = ""
+    constructor(n){
+        this.name=n;
+    
+    }
+
+    getName(){
+        console.log(this.#name);
+    }
+}
+
+let Emp2 = new emp("vikas");
+console.log(Emp2.getName());
+
