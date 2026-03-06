@@ -70,3 +70,7 @@ public class Main {
 
 In short: OOPS is the backbone of modern programming languages like Java, Python, and C++. By mastering its four pillars—Encapsulation, Inheritance, Polymorphism, and Abstraction—you can design software that is modular, reusable, and closer to real-world problem-solving.
 Would you like me to create a visual diagram of OOPS principles (like a class hierarchy chart) to make this even clearer?
+
+
+Polymorphism is a core principle of object-oriented programming (OOP) that allows a single interface or method to take multiple forms, enabling flexibility, reusability, and cleaner code design. It is mainly achieved through method overloading (compile-time polymorphism) and method overriding (runtime polymorphism).
+
