@@ -49,22 +49,7 @@ Object-Oriented Programming System (OOPS) is a paradigm that organizes software 
 - Performance overhead: Object creation and dynamic dispatch can be slower than procedural approaches.
 - Over-engineering risk: Excessive abstraction may complicate simple problems.
 
-✅ Practical Example (Java)
-class Animal {
-    void sound() { System.out.println("Animal makes sound"); }
-}
 
-class Dog extends Animal {
-    @Override
-    void sound() { System.out.println("Dog barks"); }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        Animal a = new Dog(); // Polymorphism
-        a.sound(); // Output: Dog barks
-    }
-}
 
 
 
